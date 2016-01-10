@@ -1,0 +1,16 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.rufflez.mealspottingtutorial.MainActivity">
+    <item
+        android:id="@+id/action_favorites"
+        android:icon="@drawable/ic_star_white_48dp"
+        app:showAsAction="ifRoom"
+        android:title="@string/action_favorite"/>
+
+    <item
+        android:id="@+id/all_meals"
+        android:orderInCategory="100"
+        app:showAsAction="never"
+        android:title="@string/menu_title"/>
+</menu>
